@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background-color: black;
-  /* background: var(--bg-color); */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   display: flex;
@@ -19,14 +18,12 @@ body {
   margin-bottom: 3rem;
   color: mintcream;
   width: max-content;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
 }
 
 .title {
   color: mintcream;
   text-transform: uppercase;
-  /* margin-top: 2em;
-  margin-bottom: 1em; */
   font-size: 1.5em;
   letter-spacing: 0.3em;
 }
