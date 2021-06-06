@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  background-color: black;
+  /* background: var(--bg-color); */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header{
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  position: relative;
+  font-size: 3em;
+  margin-bottom: 3rem;
+  color: mintcream;
+  width: max-content;
+  letter-spacing: 0.2em;
+}
+
+.title {
+  color: mintcream;
+  text-transform: uppercase;
+  /* margin-top: 2em;
+  margin-bottom: 1em; */
+  font-size: 1.5em;
+  letter-spacing: 0.3em;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  height: 3em;
+  width: 3em;
+  color: rgba(0,0,0,0.7);
+  border-radius: 0.4em;
+  line-height: 3em;
+  letter-spacing: 1px;
+  margin: 0.4em;
+  transition: 0.3s;
+  text-align: center;
+  font-size: 1em;
+}
+
+#tab {
+  width: 5em;
+}
+
+#caps {
+  width: 6em;
+}
+
+#left-shift {
+  width: 8em;
+}
+
+#enter {
+  width: 6em;
+}
+
+#right-shift {
+  width: 8em;
+}
+
+#back {
+  width: 5em;
+}
+
+.pinky { 
+  background-color: #1E6091;
+  border: 2px solid #1E6091;
+}
+.pinky.selected {
+  color: #1E6091;
+}
+
+.ring { 
+  background-color: #168AAD;
+  border: 2px solid #168AAD;
+}
+.ring.selected {
+  color: #168AAD;
+}
+
+.middle { 
+  background-color: #52B69A;
+  border: 2px solid #52B69A;
+}
+.middle.selected {
+  color: #52B69A;
+}
+
+.pointer1st { 
+  background-color: #99D98C;
+  border: 2px solid #99D98C;
+}
+.pointer1st.selected {
+  color: #99D98C;
+}
+
+.pointer2nd { 
+  background-color: #D9ED92;
+  border: 2px solid #D9ED92;
+}
+.pointer2nd.selected {
+  color: #D9ED92;
+}
+
+.fill-out-key {
+  background-color: slategrey;
+  border: 2px solid slategrey;
+}
+
+.selected {
+  background-color: transparent;
+}
